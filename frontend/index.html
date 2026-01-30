@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Task Manager</h2>
+
+<input type="hidden" id="taskId">
+
+<input type="text" id="title" placeholder="Task Title">
+<input type="text" id="description" placeholder="Task Description">
+
+<select id="status">
+    <option value="Pending">Pending</option>
+    <option value="Completed">Completed</option>
+</select>
+
+<button onclick="saveTask()">Save Task</button>
+
+<ul id="taskList"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
